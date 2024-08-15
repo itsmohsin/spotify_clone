@@ -7,6 +7,7 @@ import 'package:myapp/common/widgets/button/basic_app_button.dart';
 import 'package:myapp/core/configs/assets/app_images.dart';
 import 'package:myapp/core/configs/assets/app_vectors.dart';
 import 'package:myapp/core/configs/theme/app_colors.dart';
+import 'package:myapp/presentation/auth/pages/signup_or_signin.dart';
 import 'package:myapp/presentation/choose_mode/bloc/theme_cubit.dart';
 
 class ChooseModePage extends StatelessWidget {
@@ -67,7 +68,8 @@ class ChooseModePage extends StatelessWidget {
                                 height: 80,
                                 width: 80,
                                 decoration: BoxDecoration(
-                                    color: Color(0xff30393C).withOpacity(0.5),
+                                    color: const Color(0xff30393C)
+                                        .withOpacity(0.5),
                                     shape: BoxShape.circle),
                                 child: SvgPicture.asset(
                                   AppVectors.moon,
@@ -88,7 +90,7 @@ class ChooseModePage extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(width: 40),
+                    const SizedBox(width: 40),
                     Column(
                       children: [
                         GestureDetector(
@@ -104,7 +106,8 @@ class ChooseModePage extends StatelessWidget {
                                 height: 80,
                                 width: 80,
                                 decoration: BoxDecoration(
-                                    color: Color(0xff30393C).withOpacity(0.5),
+                                    color: const Color(0xff30393C)
+                                        .withOpacity(0.5),
                                     shape: BoxShape.circle),
                                 child: SvgPicture.asset(
                                   AppVectors.sun,
@@ -134,7 +137,7 @@ class ChooseModePage extends StatelessWidget {
                         context,
                         MaterialPageRoute(
                             builder: (BuildContext context) =>
-                                const ChooseModePage()));
+                                const SignupOrSigninPage()));
                   },
                   title: 'Continue',
                 )
