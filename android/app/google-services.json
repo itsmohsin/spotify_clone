@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "259434368076",
+    "firebase_url": "https://spotify1327-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "spotify1327",
+    "storage_bucket": "spotify1327.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259434368076:android:f38bda17aa0d67500af8e9",
+        "android_client_info": {
+          "package_name": "com.itsmohsin.spotify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXfPAiV7TpH2QRyWeXrJziV9vG7pV8f10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
